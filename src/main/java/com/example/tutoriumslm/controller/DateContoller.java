@@ -26,6 +26,6 @@ public class DateContoller {
 
     @GetMapping("/date")
     public String getDate(@RequestParam(required = false) String format){
-        return dateservice.getDate(String format);
+        return dateservice.getDate(format);
     }
 }
